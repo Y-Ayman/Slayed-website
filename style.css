@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  right: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+}
+.logo {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav {
+  font-weight: bold;
+  display: flex;
+  margin: 0 auto;
+  gap: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.btn {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid #604cc3;
+  background-color: white;
+  color: #604cc3;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Hero-section {
+  font-size: 40px;
+  margin-left: 130px;
+}
+
+.list li {
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 120px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+.content-p {
+  margin-left: 900px;
+  text-align: end;
+  font-size: 20px;
+  padding: 50px;
+  font-weight: bold;
+  direction: rtl;
+}
+.content-img img {
+  width: 1340px;
+  height: 600px;
+  position: relative;
+  left: 120px;
+  object-fit: cover;
+}
+.list-2 li {
+  position: relative;
+  left: 115px;
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+
+.content-p-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  right: 50px;
+  margin-left: 900px;
+  text-align: end;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: justify;
+  direction: ltr;
+}
+.content-numbers {
+  display: flex;
+  position: relative;
+  bottom: 60px;
+  margin: 0 40px 0;
+}
+.content-numbers h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 100 lighter;
+}
+.h3-1 {
+  margin-left: 80px;
+  margin-right: 150px;
+}
+.h3-2 {
+  margin-left: 40px;
+  margin-right: 200px;
+}
+.content-paragraph {
+  display: flex;
+  position: relative;
+  top: 60px;
+  right: 700px;
+}
+.content-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.p-1 {
+  margin-left: 65px;
+  margin-right: 165px;
+}
+.p-2 {
+  margin-left: 30px;
+  margin-right: 160px;
+}
+.list-3 {
+  position: relative;
+  left: 90px;
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+.designs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.design-1 {
+  margin-left: 900px;
+}
+.design-2 {
+  margin-left: 900px;
+  margin-top: 12px;
+}
+.design-3 {
+  margin-left: 900px;
+  margin-top: 12px;
+}
+.design-4 {
+  margin-left: 900px;
+  margin-top: 12px;
+}
+.design-5 {
+  margin-left: 900px;
+  margin-top: 12px;
+}
+.btn-2 {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid #604cc3;
+  background-color: white;
+  color: #604cc3;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  left: 110px;
+}
+.container-imgs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  max-width: 100px;
+  position: relative;
+  left: 90px;
+}
+.c-img-1 {
+  padding-left: 20px;
+}
+.c-img-1 img {
+  width: 670px;
+  margin-top: 30px;
+}
+.c-img-1 h6 {
+  color: #b771e5;
+  font-size: 20px;
+}
+.c-img-1 h4 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.c-img-1 p {
+  font-weight: 800 lighter;
+  color: rgb(71, 70, 70);
+}
+.container-prices {
+  display: flex;
+  gap: 50px;
+}
+.pricing-card {
+  border-radius: 20px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  border: 3px solid #f4f4f4;
+  background-color: #f4f4f4;
+  width: 400px;
+  height: 350px;
+}
+.pricing-card h4 {
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  position: relative;
+  left: 150px;
+  top: 5px;
+  font-weight: 400 lighter;
+}
+
+.p-c-white {
+  background-color: white;
+  width: 395px;
+  height: 315px;
+  border-radius: 20px;
+}
+.p-c-white h5 {
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.p-c-white button {
+  padding: 10px 120px;
+  border-radius: 25px;
+  border: 1px solid #604cc3;
+  background-color: white;
+  color: #604cc3;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  left: 30px;
+}
+.p-c-white h6 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+}
+
+.features {
+  position: relative;
+  left: 20px;
+  list-style: square;
+  font-weight: bold;
+}
+.features li {
+  margin-bottom: 10px;
+}
+li::marker {
+  color: #604cc3;
+}
+.list-4 {
+  position: relative;
+  left: 60px;
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  top: 10px;
+}
+.container-blog {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.c-blog-card {
+  position: relative;
+  right: 110px;
+  top: 50px;
+  width: 390px;
+}
+.c-blog-card img {
+  width: 460px;
+  gap: 30px;
+}
+.part-flex {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 25px;
+}
+.part-flex h6 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.part-flex li {
+  color: rgb(65, 64, 64);
+}
+.part-flex li::marker {
+  color: rgb(219, 213, 213);
+}
+.blog-p-1 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.bolg-p-2 {
+  color: rgb(47, 46, 46);
+  font-size: 15px;
+  font-weight: 200;
+}
+.list-5 {
+  position: relative;
+  left: 50px;
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container-testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+  margin-right: 300px;
+  margin-left: 65px;
+}
+
+.Testimonials-card {
+  background-color: #f3f3f3;
+  width: 700px;
+  height: 220px;
+}
+.Testimonials-card P {
+  width: 720px;
+  font-size: 20px;
+  font-weight: lighter;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.Testimonials-flex {
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 15px;
+}
+.Testimonials-flex img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.Testimonials-flex h4 {
+  position: absolute;
+  left: 60px;
+  bottom: 25px;
+}
+.Testimonials-flex p {
+  font-size: 15px;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  color: #656565;
+}
+.list-6 {
+  position: relative;
+  left: 50px;
+  list-style-type: square;
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container-footer {
+  background-color: #53029b;
+  color: white;
+  width: 1600px;
+  height: 300px;
+  display: flex;
+  gap: 400px;
+  overflow: hidden;
+}
+.footer-left {
+  position: relative;
+  left: 160px;
+  top: 30px;
+}
+.nav-2 {
+  font-weight: lighter;
+  display: flex;
+  gap: 30px;
+}
+.nav-2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.social {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.social a {
+  color: white;
+  font-size: 18px;
+}
+.nav-3 {
+  font-weight: lighter;
+  display: flex;
+  gap: 25px;
+}
+.nav-3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-top: 70px;
+}
+.footer-p {
+  margin-top: 80px;
+}
+.footer-p a {
+  color: white;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(183, 182, 182);
+}
+.footer-form {
+  position: relative;
+  right: 10px;
+}
+.footer-form label {
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+}
+.footer-form input {
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 7px 30px 4px;
+  position: relative;
+  top: 35px;
+}
+.footer-form button {
+  border-radius: 5px;
+  background-color: #53029b;
+  border: 2px solid #53029b;
+  position: relative;
+  right: 76px;
+  top: 34px;
+  padding: 4px 4px 4px;
+  color: white;
+}
+.footer-text {
+  position: relative;
+  top: 75px;
+  left: 41px;
+  font-size: 150px;
+  color: rgba(255, 255, 255, 0.15);
+}
